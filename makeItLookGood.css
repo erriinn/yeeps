@@ -1,0 +1,96 @@
+body {
+	background-color: white;
+	margin: 0;
+}
+
+h1, h3{
+	font-family: 'Lilita One', sans-serif;
+	font-size: 64px;
+	font-weight: 400;
+	margin-left: 1%;
+	color: black;
+}
+
+header {
+	background-color: #c574db;
+	text-align: center;
+	padding: 5px;
+	color: white;
+}
+
+header h1 {
+	color: white;
+}
+
+a, p, input {
+	font-family: "Londrina Solid", sans-serif;
+	font-size: 18px;
+	margin-left: 1%;
+}
+
+.centered {
+	text-align: center;
+}
+
+label {
+	font-family: "Londrina Solid", sans-serif;
+	font-size: 24px;
+	margin-left: 1%;
+}
+
+.article {
+	color:black;
+}
+
+.BIG {
+	font-size: 48px
+}
+
+a {
+	color: purple;
+}
+a:hover {
+	color: #b000b0 !important;
+}
+a:active {
+	color: #ff00ff !important;
+}
+
+.grid {
+	display: flex;
+	flex-wrap: wrap;
+	gap: 0px;
+	list-style: none;
+	margin-left: 15%
+}
+
+.grid li{
+	box-sizing: border-box;
+	padding-left: 5%;
+	padding-right:5%;
+}
+
+.grid li img {
+	border-radius: 10%;
+	border: 3px solid;
+}
+
+footer {
+	background-color: #bbb;
+	margin: 0;
+	width: 100%;
+	padding-bottom:1%;
+	padding-top:1%;
+}
+
+.noUnderline {
+	text-decoration: none;
+}
+
+.artLink {
+	margin:0; !important
+}
+.sub {
+	color:#777;
+	font-size: 12px;
+}

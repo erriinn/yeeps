@@ -1,0 +1,45 @@
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>Yeeps Wiki</title>
+	<link rel="stylesheet" href="../makeItLookGood.css">
+	<link href="https://fonts.googleapis.com/css2?family=Lilita+One&display=swap" rel="stylesheet">
+	<link href="https://fonts.googleapis.com/css2?family=Londrina+Solid:wght@100;300;400;900&display=swap" rel="stylesheet">
+</head>
+
+<header>
+	<a href="../index.html" class="noUnderline"><h1> Yeeps Wiki </h1></a>
+</header>
+
+<body>
+	<div>
+		<form onsubmit="getpage(event)" autocomplete="off">
+			<label class="centered">Search the wiki</label>
+			<input placeholder="yeep feet" id="searchbar">
+			<button type = button onclick="getpage()">🔎</button>
+			<p>please dont use search, its awfully made</p>
+		</form> <br>
+		<h1>Cooking  <p class="sub">last updated 3/2/25</p></h1>
+		<!--Article goes here v-->
+		<p>
+			Cooking is used to make food which can be used to feed to your <a class="artlink">pets</a> to level them up or complete the Certified Chomper <a class="artlink">achievement</a>.
+			<br> There are currently ≈57 recipes in the game.
+			<br> Cooking was added to the game alongside <a class="artlink">the pets update</a> with the original 50 recipes.
+			<br> In order to cook, you must have at least one ingredient and a <a class="artlink">pot</a> or an <a class="artlink">oven</a>. If you are using a pot you must make sure that the burner is on. If not, you can activate it by pressing the red button. If you are using an oven, you have to press the red button at the top of the opening once you are finished. Place the <a class="artlink">ingredients</a> into your pot/oven and wait for you food to pop out or if using an oven, you will here a ding which is your signal to press the button again to receive your food.
+		</p>
+	</div>
+	<div class="side">
+		<h3>
+	</div>
+	<script>
+		function getpage() {
+			if (event) event.preventDefault();
+			var page = document.getElementById("searchbar").value;
+			window.location.href = "../pages/" + page +".html";
+}
+	</script>
+</body>
+<footer>
+	<a href="https://wiki.yeeps.dev" target="_blank">go check out my inspiration (not updated in a year)</a>
+	<a href="https://discord.com/invite/eENRxEFgN9"><p>Join the Discord! <img src=../images/discord.jpg style="width: 2vw; margin-left:0.5%; border-radius: 50%; position:absolute;"></p></a>
+</footer>
