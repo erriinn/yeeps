@@ -3,12 +3,11 @@ body {
 	margin: 0;
 }
 
-h1, h3{
+h1, h3, h2{
 	font-family: 'Lilita One', sans-serif;
 	font-size: 64px;
 	font-weight: 400;
 	margin-left: 1%;
-	color: black;
 }
 
 header {
