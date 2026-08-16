@@ -45,16 +45,6 @@ label {
 	font-size: 48px
 }
 
-a {
-	color: purple;
-}
-a:hover {
-	color: #b000b0 !important;
-}
-a:active {
-	color: #ff00ff !important;
-}
-
 .grid {
 	display: flex;
 	flex-wrap: wrap;
