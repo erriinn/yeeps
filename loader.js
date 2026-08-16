@@ -30,6 +30,6 @@ async function loadHTML(elementId, filePath) {
  
 // Load header and footer when the DOM is fully loaded
 document.addEventListener('DOMContentLoaded', () => {
-  loadHTML('header', 'yeeps/reuse/header.html'); // Load header into #header
-  loadHTML('footer', 'yeeps/reuse/footer.html'); // Load footer into #footer
+  loadHTML('header', '/yeeps/reuse/header.html'); // Load header into #header
+  loadHTML('footer', '/yeeps/reuse/footer.html'); // Load footer into #footer
 });
