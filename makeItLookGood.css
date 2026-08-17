@@ -1,7 +1,7 @@
 .banner {
 	background-color: red; /* only touch these */
 	color: white; /**/
-	font-size: 18px; /* 0px to disable */
+	font-size: 0px; /* 0px to disable */
 	margin: 0px;
 }
 
