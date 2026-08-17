@@ -1,6 +1,9 @@
 .banner {
-	background-color: red;
+	background-color: red; /* only touch these */
+	color: white; /**/
 	font-size: 18px;
+	margin-left: 0px;
+	text-allign: center;
 }
 
 body {
