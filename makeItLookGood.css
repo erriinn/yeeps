@@ -1,3 +1,8 @@
+.banner {
+	background-color: red;
+	font-size: 18px;
+}
+
 body {
 	background-color: white;
 	margin: 0;
