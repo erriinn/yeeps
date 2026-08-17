@@ -8,19 +8,13 @@
 </head>
 
 <header>
-	<script src="./loader.js"> </script>
+	<script src="../loader.js"> </script>
 	<div id="header">
 	</div>
 </header>
 
 <body>
 	<div>
-		<form onsubmit="getpage(event)" autocomplete="off">
-			<label class="centered">Search the wiki</label>
-			<input placeholder="yeep feet" id="searchbar">
-			<button type = button onclick="getpage()">🔎</button>
-			<p>please dont use search, its awfully made</p>
-		</form> <br>
 		<h1>Article Name <p class="sub">last updated ?/?/?</p></h1>
 		<!--Article goes here v-->
 		<p>
@@ -28,13 +22,6 @@
 			and it is super cool
 		</p>
 	</div>
-	<script>
-		function getpage() {
-			if (event) event.preventDefault();
-			var page = document.getElementById("searchbar").value;
-			window.location.href = "../pages/" + page +".html";
-}
-	</script>
 </body>
 <footer>
 	<div id="footer">
